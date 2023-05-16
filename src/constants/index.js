@@ -15,13 +15,16 @@ import {
   git,
   figma,
   meta,
-  uni,
+  heroics,
   travel,
   sumz,
   threejs,
   freelancer, 
   creator,
-  jsc
+  jsc,
+  beyond,
+  amadi,
+  kijedi
 } from "../assets";
 
 export const navLinks = [
@@ -135,15 +138,15 @@ const experiences = [
   },
   {
     title: "Computer Science Attachee",
-    company_name: "Naivasha Law Courts",
+    company_name: "Engineer Law Courts",
     icon: jsc,
     iconBg: "#E6DEDD",
     date: "Oct 2022 - Dec 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Troubleshooting issues with network connectivity, printers and related technology.",
+      " Performed software updates and routine PC maintenance, printers and copy machines.",
+      "Registering new cases from the ODPP office on the case tracking system.",
+      "Processing invoices for cash bail and bonds payments on the case tracking system."
     ],
   },
 ];
@@ -153,9 +156,9 @@ const testimonials = [
     testimonial:
       "I thought it was impossible to make a website as beautiful as our product, but Mercylin proved me wrong.",
     name: "Lawrence Amadi",
-    designation: "CEO",
+    designation: "Executive Director",
     company: "Beyond My Tribe",
-    // image: "https://randomuser.me/api/portraits/women/4.jpg",
+    image: amadi,
   },
   {
     testimonial:
@@ -163,7 +166,7 @@ const testimonials = [
     name: "Wesley Kijedi",
     designation: "Founder",
     company: "Violet Technologies",
-    // image: "https://randomuser.me/api/portraits/men/5.jpg",
+    image: kijedi,
   },
   {
     testimonial:
@@ -171,34 +174,42 @@ const testimonials = [
     name: "Lisa Wang",
     designation: "CTO",
     company: "456 Enterprises",
-  //   image: "https://randomuser.me/api/portraits/women/6.jpg",
+    image: "https://randomuser.me/api/portraits/women/6.jpg",
   },
 ];
 
 const projects = [
   {
-    name: "Sumz",
+    name: "BMT Website",
     description:
-      "An open source article summerizer that transforms lengthy articles into clear and concise summaries.",
+      "A comprehensive and fully responssive Web Application for the BMT company.",
 
     tags: [
       {
-        name: "react",
+        name: "html",
         color: "blue-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "javascript",
+        color: "green-text-gradient",
+      },
+      {
+        name: "bootstrap",
         color: "pink-text-gradient",
       },
+      {
+        name: "php",
+        color: "orange-text-gradient",
+      },
     ],
-    image: sumz,
-    source_code_link: "https://github.com/linmercy/AI-summerizer.git",
-    deployment_link: "https://animated-cucurucho-f50f82.netlify.app/",
+    image: beyond,
+    source_code_link: "https://github.com/BeyondMyTribe/BMT.git",
+    deployment_link: "https://beyondmytribe.org",
   },
   {
-    name: "University web clone",
+    name: "Heroics",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Web application that enables users to search for their favorite comics arists, view their personal details, and connections.",
     tags: [
       {
         name: "html",
@@ -213,9 +224,9 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: uni,
-    source_code_link: "https://github.com/linmercy/uni.git",
-    deployment_link: "https://linmercy.github.io/uni/",
+    image: heroics,
+    source_code_link: "https://github.com/linmercy/Heroics.git",
+    deployment_link: "https://linmercy.github.io/Heroics/",
   },
   {
     name: "Trip Guide",

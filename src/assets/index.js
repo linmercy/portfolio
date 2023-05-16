@@ -28,10 +28,16 @@ import tesla from "./company/tesla.png";
 import jsc from "./company/jsc.png"
 import sumz from "./sumz.png";
 import travel from "./travel.png";
-import uni from "./uni.png";
+import heroics from "./heroics.png";
+import beyond from "./beyond.png"
+import amadi from "./1.png"
+import kijedi from "./2.png"
 
 export {
   logo,
+  amadi,
+  kijedi,
+  beyond,
   backend,
   creator,
   mobile,
@@ -56,7 +62,7 @@ export {
   shopify,
   starbucks,
   tesla,
-  uni,
+  heroics,
   sumz,
   travel,
   bmt,

@@ -25,7 +25,7 @@ const Hero = () => {
         </div>
       </div>
 
-      {/* <ComputersCanvas /> */}
+      <ComputersCanvas />
 
       <div className={`${styles.paddingX} absolute xs:bottom-10 bottom-20 w-full flex justify-center items-center`}>
         <a href='#about'>

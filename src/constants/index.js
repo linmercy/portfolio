@@ -250,6 +250,28 @@ const projects = [
     source_code_link: "https://github.com/linmercy/travel.git",
     deployment_link: "https://linmercy.github.io/travel/",
   },
+  // {
+  //   name: "Sumz",
+  //   description:
+  //     "An AI  that summerizes l",
+  //   tags: [
+  //     {
+  //       name: "react",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "supabase",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "scss",
+  //       color: "pink-text-gradient",
+  //     },
+  //   ],
+  //   image: travel,
+  //   source_code_link: "https://github.com/linmercy/travel.git",
+  //   deployment_link: "https://linmercy.github.io/travel/",
+  // },
 ];
 
 export { services, technologies, experiences, testimonials, projects };

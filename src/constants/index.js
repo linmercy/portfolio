@@ -24,7 +24,8 @@ import {
   jsc,
   beyond,
   amadi,
-  kijedi
+  kijedi,
+  builds
 } from "../assets";
 
 export const navLinks = [
@@ -43,14 +44,14 @@ export const navLinks = [
 ];
 
 const services = [
-  {
-    title: "Web App Developer",
-    icon: web,
-  },
-  {
-    title: "React Developer",
-    icon: mobile,
-  },
+  // {
+  //   title: "Web App Developer",
+  //   icon: web,
+  // },
+  // {
+  //   title: "React Developer",
+  //   icon: mobile,
+  // },
   {
     title: "Front-end Developer",
     icon: backend,
@@ -229,7 +230,7 @@ const projects = [
     deployment_link: "https://linmercy.github.io/Heroics/",
   },
   {
-    name: "Trip Guide",
+    name: "Travel",
     description:
       "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
     tags: [
@@ -238,7 +239,7 @@ const projects = [
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "tailwind",
         color: "green-text-gradient",
       },
       {
@@ -250,27 +251,63 @@ const projects = [
     source_code_link: "https://github.com/linmercy/travel.git",
     deployment_link: "https://linmercy.github.io/travel/",
   },
+  {
+    name: "Sumz",
+    description:
+      "An open source article summerizer that transforms long articles ino clear concise summaries",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "green-text-gradient",
+      }
+    ],
+    image: sumz,
+    source_code_link: "https://github.com/linmercy/travel.git",
+    deployment_link: "https://linmercy.github.io/travel/",
+  },
+  {
+    name: "Builds",
+    description:
+      "A construction website landing page built in react",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "green-text-gradient",
+      }
+    ],
+    image: builds,
+    source_code_link: "https://github.com/linmercy/construction-website.git",
+    deployment_link: "https://https://construction-website-tau.vercel.app/",
+  },
   // {
-  //   name: "Sumz",
+  //   name: "Games",
   //   description:
-  //     "An AI  that summerizes l",
+  //     "A construction website landing page built in react",
   //   tags: [
   //     {
-  //       name: "react",
+  //       name: "html",
   //       color: "blue-text-gradient",
   //     },
   //     {
-  //       name: "supabase",
+  //       name: "css",
   //       color: "green-text-gradient",
   //     },
   //     {
-  //       name: "scss",
+  //       name: "javascript",
   //       color: "pink-text-gradient",
-  //     },
+  //     }
   //   ],
   //   image: travel,
-  //   source_code_link: "https://github.com/linmercy/travel.git",
-  //   deployment_link: "https://linmercy.github.io/travel/",
+  //   source_code_link: "https://github.com/linmercy/construction-website.git",
+  //   deployment_link: "https://https://construction-website-tau.vercel.app/",
   // },
 ];
 

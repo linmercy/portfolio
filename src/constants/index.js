@@ -267,7 +267,7 @@ const projects = [
     ],
     image: sumz,
     source_code_link: "https://github.com/linmercy/travel.git",
-    deployment_link: "https://linmercy.github.io/travel/",
+    deployment_link: "https://animated-cucurucho-f50f82.netlify.app/",
   },
   {
     name: "Builds",
@@ -285,7 +285,7 @@ const projects = [
     ],
     image: builds,
     source_code_link: "https://github.com/linmercy/construction-website.git",
-    deployment_link: "https://https://construction-website-tau.vercel.app/",
+    deployment_link: "https://construction-website-tau.vercel.app/",
   },
   // {
   //   name: "Games",

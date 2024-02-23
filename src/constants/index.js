@@ -14,7 +14,7 @@ import {
   mongodb,
   git,
   figma,
-  meta,
+  // meta,
   heroics,
   travel,
   sumz,
@@ -44,16 +44,16 @@ export const navLinks = [
 ];
 
 const services = [
-  // {
-  //   title: "Web App Developer",
-  //   icon: web,
-  // },
-  // {
-  //   title: "React Developer",
-  //   icon: mobile,
-  // },
   {
-    title: "Front-end Developer",
+    title: "NextJs Developer",
+    icon: web,
+  },
+  {
+    title: "React Developer",
+    icon: mobile,
+  },
+  {
+    title: "React-Native Developer",
     icon: backend,
   },
   {
@@ -106,6 +106,10 @@ const technologies = [
   {
     name: "figma",
     icon: figma,
+  },
+  {
+    name: "typescript",
+    icon: typescript,
   },
 ];
 

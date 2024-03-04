@@ -20,12 +20,13 @@ import {
   sumz,
   threejs,
   freelancer, 
-  creator,
+  // creator,
   jsc,
   beyond,
   amadi,
   kijedi,
-  builds
+  builds,
+  duhqa,
 } from "../assets";
 
 export const navLinks = [
@@ -56,10 +57,10 @@ const services = [
     title: "React-Native Developer",
     icon: backend,
   },
-  {
-    title: "Computer Scientist",
-    icon: creator,
-  },
+  // {
+  //   // title: "Computer Scientist",
+  //   // icon: creator,
+  // },
 ];
 
 const technologies = [
@@ -114,17 +115,31 @@ const technologies = [
 ];
 
 const experiences = [
+  // {
+  //   title: "React Front-end Developer",
+  //   company_name: "Freelancer",
+  //   icon: freelancer,
+  //   iconBg: "#383E56",
+  //   date: "Feb 2023 - To Date",
+  //   points: [
+  //     "Developing and maintaining web applications using React.js and other related technologies.",
+  //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+  //     "Implementing responsive design and ensuring cross-browser compatibility.",
+  //     "Participating in code reviews and providing constructive feedback to other developers.",
+  //   ],
+  // },
+
   {
-    title: "React Front-end Developer",
-    company_name: "Freelancer",
-    icon: freelancer,
+    title: "Full Stack Next.js Developer",
+    company_name: "Duhqa Limited",
+    icon: duhqa,
     iconBg: "#383E56",
-    date: "Feb 2023 - To Date",
+    date: "July 2023 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Spearheaded the development of end-to-end features for the company's flagship product using Next.js, ensuring a seamless and responsive user experience.",
+      "Leveraged React for front-end development, implementing dynamic interfaces and enhancing user interactions.",
+      "Collaborated closely with cross-functional teams to design and implement database schemas in SQL Server, delivering high-quality software solutions.",
+      "Contributed to the creation of a custom UI library, enhancing developer productivity and promoting code reuse.",
     ],
   },
   
@@ -133,12 +148,12 @@ const experiences = [
     company_name: "Beyond My Tribe",
     icon: bmt,
     iconBg: "#383E56",
-    date: "Dec 2022 - Present",
+    date: "December 2022 - June 2023",
     points: [
-      "Developing and maintaining web applications using Vanilla Javascript and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Collaborated with cross-functional teams to create a high-quality website, working closely with designers, product managers, and other developers.",
+      "Developed dynamic interactive user interfaces using HTML5, CSS3, and JavaScript, significantly improving user experiences.",
+      "Implemented a single-page application using React and Redux to enhance overall performance and usability.",
+      "Ensured the website was responsive and optimized for both desktop and mobile devices, increasing user engagement by 30%.",
     ],
   },
   {
@@ -146,7 +161,7 @@ const experiences = [
     company_name: "Engineer Law Courts",
     icon: jsc,
     iconBg: "#E6DEDD",
-    date: "Oct 2022 - Dec 2022",
+    date: "October 2022 - December 2022",
     points: [
       "Troubleshooting issues with network connectivity, printers and related technology.",
       " Performed software updates and routine PC maintenance, printers and copy machines.",

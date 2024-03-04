@@ -33,6 +33,7 @@ import beyond from "./beyond.png"
 import amadi from "./1.png"
 import kijedi from "./2.png"
 import builds from "./builds.png"
+import duhqa from "./company/duhqa.png"
 
 export {
   logo,
@@ -70,4 +71,5 @@ export {
   bmt,
   freelancer,
   jsc,
+  duhqa
 };
